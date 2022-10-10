@@ -1,5 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
 import Hero from '../components/Hero';
 import Navbar from '../components/Navbar';
 
@@ -25,7 +26,7 @@ const Work = () => {
             A star war characters information search app and it uses SWAPI API
           </p>
           <button className='px-12 py-4 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF]'>
-            read more
+            <Link href='/work/starwars'>Read more</Link>
           </button>
         </div>
       </div>
@@ -45,7 +46,7 @@ const Work = () => {
             A star war characters information search app and it uses SWAPI API
           </p>
           <button className='px-12 py-4 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF]'>
-            read more
+            <Link href='/work/starwars'>Read more</Link>
           </button>
         </div>
       </div>
