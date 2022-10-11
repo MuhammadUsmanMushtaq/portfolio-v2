@@ -1,8 +1,5 @@
 import Head from 'next/head';
-import Image from 'next/image';
 import Hero from '../components/Hero';
-import Slider from '../components/Slider';
-import { SliderData } from '../components/SliderData';
 
 export default function Home() {
   return (
@@ -16,10 +13,6 @@ export default function Home() {
         heading='Hi, there I am  Usman, a fullstack developer'
         massege='Passionate, Motivated fullstack devloper who design thoughtful digital experiences.'
       />
-
-      {/* <section className='h-screen snap-start ease-in duration-1000'>
-        <Slider slides={SliderData} />
-      </section> */}
     </div>
   );
 }

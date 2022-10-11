@@ -51,10 +51,6 @@ const Navbar = () => {
           <li className='p-4  hover:text-blue-500'>
             <Link href='/work'>Work</Link>
           </li>
-
-          <li className='p-4  hover:text-blue-500'>
-            <Link href='/contact'>Contact</Link>
-          </li>
         </ul>
         {/* mobile hem menu */}
         <div
@@ -89,12 +85,6 @@ const Navbar = () => {
               className='p-4 text-4xl  text-blue-500  hover:text-blue-600'
             >
               <Link href='/work'>Work</Link>
-            </li>
-            <li
-              onClick={toggle}
-              className='p-4 text-4xl  text-blue-500  hover:text-blue-600'
-            >
-              <Link href='/contact'>Contact</Link>
             </li>
           </ul>
         </div>
