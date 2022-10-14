@@ -1,16 +1,25 @@
 import React from 'react';
 import Image from 'next/image';
+import Link from 'next/link';
+import { ImLinkedin } from 'react-icons/im';
+import { FaGithub } from 'react-icons/fa';
 
 const Hero = ({ heading, massege }) => {
   return (
     <div className='max-w-[1240px] m-auto flex items-center flex-wrap justify-center h-screen'>
       {/* <div className='absolute top-0 bottom-0 right-0 left-0 bg-black/70 z-[2]' /> */}
-      <div className='p-5 md:flex-1'>
+      <div className='p-4 md:flex-1'>
         <h2 className='text-4xl  text-[#292929]'>{heading}</h2>
-        <p className='py-5 text-xl  text-[#292929]'>{massege}</p>
-        <button className='px-12 py-4 font-bold  bg-blue-500 hover:bg-blue-600 text-[#FFF]'>
-          Get in Touch
-        </button>
+        <p className='py-6 text-xl  text-[#292929]'>{massege}</p>
+        <Link href='mailto: usman820901@gmail.com' target='_blank'>
+          <button className='px-12 py-4 font-bold  bg-blue-500 hover:bg-blue-600 text-[#FFF]'>
+            Get in Touch
+          </button>
+        </Link>
+        <div className='py-4 flex  gap-4'>
+          <ImLinkedin size={32} color='gray' />
+          <FaGithub size={32} color='gray' />
+        </div>
       </div>
       <div className='z-[-1]  p-5 md:flex-1 w-[100%]'>
         <Image
