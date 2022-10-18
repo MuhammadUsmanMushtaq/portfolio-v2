@@ -5,7 +5,12 @@ const about = () => {
   return (
     <div className='p-6 flex flex-wrap gap-4 md:justify-center  m-auto  max-w-[1240px]'>
       <div className='py-4 md:flex-1 '>
-        <Image src='/about.jpg' width={540} height={600} objectFit='cover' />
+        <Image
+          src='/images/about.jpg'
+          width={540}
+          height={600}
+          objectFit='cover'
+        />
       </div>
       <div className='md:flex-1 py-4'>
         <h1 className='text-3xl  md:text-6xl'>Hi there, I'am Usman</h1>
