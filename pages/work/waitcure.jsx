@@ -5,7 +5,9 @@ import Link from 'next/link';
 const waitcure = () => {
   return (
     <div className='m-auto p-6  '>
-      <h1 className='text-4xl  m-auto text-center py-10 uppercase'>waitcure</h1>
+      <h1 className='text-3xl md:text-4xl  m-auto text-center pb-10 uppercase'>
+        waitcure
+      </h1>
       <div className='flex justify-center items-center flex-wrap  bg-blue-100 max-w-[1240px] m-auto p-6 mb-6'>
         <div className=' '>
           <Image

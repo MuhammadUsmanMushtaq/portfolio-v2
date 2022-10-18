@@ -4,8 +4,8 @@ import Link from 'next/link';
 
 const Work = () => {
   return (
-    <div className='p-6'>
-      <h1 className='text-4xl max-w-[1240px] m-auto text-center py-10 '>
+    <div className='p-6  m-auto  max-w-[1240px]'>
+      <h1 className='text-3xl md:text-4xl max-w-[1240px] m-auto text-center pb-10 '>
         My Work
       </h1>
 
@@ -13,7 +13,7 @@ const Work = () => {
         <div className=''>
           <Image
             src='/images/fake_imdb.png'
-            alt='starwars'
+            alt='fakeibdb'
             width={360}
             height={360}
             objectFit='contain'
@@ -47,7 +47,7 @@ const Work = () => {
             A star war characters information search app and it uses SWAPI API,
             react, styled components and netlify for deployment.
           </p>
-          <button className='px-12 py-4 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF]'>
+          <button className='px-8 py-3 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF]'>
             <Link href='/work/starwars'>Read more</Link>
           </button>
         </div>
@@ -57,7 +57,7 @@ const Work = () => {
         <div className=''>
           <Image
             src='/images/waitcure.png'
-            alt='starwars'
+            alt='waitcure'
             width={360}
             height={360}
             objectFit='contain'
@@ -70,7 +70,7 @@ const Work = () => {
             times. Patients can reschedule, get earlier times or cancel their
             appointments through a simple UI.
           </p>
-          <button className='px-12 py-4 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF]'>
+          <button className='px-8 py-3 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF]'>
             <Link href='/work/waitcure'>Read more</Link>
           </button>
         </div>
@@ -80,7 +80,7 @@ const Work = () => {
         <div className=''>
           <Image
             src='/images/EuBike.png'
-            alt='starwars'
+            alt='eubike'
             width={360}
             height={360}
             objectFit='contain'
@@ -91,11 +91,10 @@ const Work = () => {
             UX Review for EU-Bikes
           </h2>
           <p className='text-xl my-4 md:w-[400px] lg:w-[600px]'>
-            The main aim of this project was to analyze the user experience of
-            the EU bike service and to recommend improvements to satisfy both
-            the user goals and the business goals.
+            UX review on EU bike service and recommend improvements to satisfy
+            both the user goals and the business goals.
           </p>
-          <button className='px-12 py-4 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF]'>
+          <button className='px-8 py-3 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF]'>
             <Link href='/work/eubikes'>Read more</Link>
           </button>
         </div>
@@ -117,7 +116,7 @@ const Work = () => {
             Redesign of the frontend program page of KYH using vanilla
             Javascript, HTML and CSS.
           </p>
-          <button className='px-12 py-4 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF]'>
+          <button className='px-8 py-3 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF]'>
             <Link href='/work/kyh'>Read more</Link>
           </button>
         </div>
@@ -139,7 +138,7 @@ const Work = () => {
             Personal portfolio page using react, styled components and netlify
             for deployment.
           </p>
-          <button className='px-12 py-4 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF]'>
+          <button className='px-8 py-3 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF]'>
             <Link href='/work/portfolio'>Read more</Link>
           </button>
         </div>
