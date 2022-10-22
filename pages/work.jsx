@@ -9,7 +9,7 @@ const Work = () => {
         My Work
       </h1>
 
-      <div className='flex justify-center items-center flex-wrap md:flex-nowrap  bg-blue-100 max-w-[1240px] m-auto p-6 mb-6'>
+      <div className='flex justify-center items-center flex-wrap md:flex-nowrap drop-shadow  bg-gray-50 rounded max-w-[1240px] m-auto p-6 mb-6'>
         <div className=''>
           <Image
             src='/images/fake_imdb.png'
@@ -31,7 +31,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className='flex justify-center items-center flex-wrap md:flex-nowrap  bg-blue-100 max-w-[1240px] m-auto p-6 mb-6'>
+      <div className='flex justify-center items-center flex-wrap md:flex-nowrap drop-shadow  bg-gray-50 rounded  max-w-[1240px] m-auto p-6 mb-6'>
         <div className=''>
           <Image
             src='/images/starwars_SWAPI.png'
@@ -53,7 +53,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className='flex justify-center items-center flex-wrap md:flex-nowrap  bg-blue-100 max-w-[1240px] m-auto p-6 mb-6'>
+      <div className='flex justify-center items-center flex-wrap md:flex-nowrap drop-shadow bg-gray-50 rounded max-w-[1240px] m-auto p-6 mb-6'>
         <div className=''>
           <Image
             src='/images/waitcure.png'
@@ -76,7 +76,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className='flex justify-center items-center flex-wrap md:flex-nowrap  bg-blue-100 max-w-[1240px] m-auto p-6 mb-6'>
+      <div className='flex justify-center items-center flex-wrap md:flex-nowrap drop-shadow  bg-gray-50 rounded max-w-[1240px] m-auto p-6 mb-6'>
         <div className=''>
           <Image
             src='/images/EuBike.png'
@@ -100,7 +100,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className='flex justify-center items-center flex-wrap md:flex-nowrap  bg-blue-100 max-w-[1240px] m-auto p-6 mb-6'>
+      <div className='flex justify-center items-center flex-wrap md:flex-nowrap drop-shadow  bg-gray-50 rounded max-w-[1240px] m-auto p-6 mb-6'>
         <div className=''>
           <Image
             src='/images/kyh_page.png'
@@ -122,7 +122,7 @@ const Work = () => {
         </div>
       </div>
 
-      <div className='flex justify-center items-center flex-wrap md:flex-nowrap  bg-blue-100 max-w-[1240px] m-auto p-6 mb-6'>
+      <div className='flex justify-center items-center flex-wrap md:flex-nowrap drop-shadow  bg-gray-50 rounded max-w-[1240px] m-auto p-6 mb-6'>
         <div className=''>
           <Image
             src='/images/portfolio_v1.png'

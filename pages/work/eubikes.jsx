@@ -8,14 +8,14 @@ const eubikes = () => {
       <h1 className='text-4xl  m-auto text-center pb-10 uppercase'>
         UX Review for EU-Bikes
       </h1>
-      <div className='flex justify-center items-center flex-wrap  bg-blue-100 max-w-[1240px] m-auto p-6 mb-6'>
+      <div className='flex justify-center items-center flex-wrap drop-shadow  bg-gray-50 rounded max-w-[1240px] m-auto p-6 mb-6'>
         <div className=' '>
           <Image
             src='/images/EuBike.png'
             alt='EuBike'
             width={900}
             height={760}
-            objectFit='cover'
+            objectFit='contain'
           />
         </div>
       </div>

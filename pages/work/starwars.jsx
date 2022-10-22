@@ -4,18 +4,18 @@ import Link from 'next/link';
 
 const starwars = () => {
   return (
-    <div className='m-auto p-6  '>
+    <div className='m-auto p-6 '>
       <h1 className='text-3xl md:text-4xl  m-auto text-center pb-10 uppercase'>
         Star Wars SWAPI
       </h1>
-      <div className='flex justify-center items-center flex-wrap  bg-blue-100 max-w-[1240px] m-auto p-6 mb-6'>
+      <div className='flex justify-center items-center flex-wrap drop-shadow  bg-gray-50 rounded max-w-[1240px] m-auto p-6 mb-6'>
         <div className=' '>
           <Image
             src='/images/starwars_SWAPI.png'
             alt='starwars'
             width={900}
             height={760}
-            objectFit='cover'
+            objectFit='contain'
           />
         </div>
       </div>
