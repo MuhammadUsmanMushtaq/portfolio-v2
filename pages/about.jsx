@@ -13,7 +13,7 @@ const about = () => {
         />
       </div>
       <div className='md:flex-1 py-4'>
-        <h1 className='text-3xl  md:text-6xl pb-2'>Hi there, I'am Usman</h1>
+        <h1 className='text-3xl  md:text-6xl'>Hi there, I'am Usman</h1>
         <p className='py-4 text-lg tracking-wider leading-loose'>
           I am a fullstack software developer based in stockholm with a passion
           for building web and mobile applications. I have a strong background
@@ -36,12 +36,9 @@ const about = () => {
           efficiently finding solutions to a broad variety of problems and user
           pain points.
           <br />
-          <br />
-          <span className='font-bold'>
-            {' '}
+          <span className='font-bold '>
             How did i get into software development?
           </span>
-          <br />
           <br />I was always interested in a career in tech, but I didn't know
           how to get started. I was working as a UX/UI designer at SustainLab,
           and I was looking for a way to expand my skillset. I started to learn
@@ -51,9 +48,9 @@ const about = () => {
           fullstack software developer.
         </p>
       </div>
-      <div className='max-w-[1240px] flex flex-col'>
+      <div className='max-w-[1240px]flex flex-col'>
         <h1 className='text-3xl md:text-6xl'>Other things i enjoy...</h1>
-        <ul className='py-4 pl-10 text-xl list-disc tracking-wider leading-loose'>
+        <ul className='py-4 pl-10 text-lg list-disc tracking-wider leading-loose'>
           <li className=' m-2'>
             <span className='font-bold'>Food & Desserts</span> 🥗 🍩I’m always
             on the lookout for the next best food, dessert, and coffee spots in
