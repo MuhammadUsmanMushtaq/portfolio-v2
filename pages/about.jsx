@@ -36,6 +36,7 @@ const about = () => {
           efficiently finding solutions to a broad variety of problems and user
           pain points.
           <br />
+          <br />
           <span className='font-bold '>
             How did i get into software development?
           </span>
