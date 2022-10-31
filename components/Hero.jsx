@@ -56,7 +56,7 @@ const Hero = () => {
         </div>
         <Link href='/work'>
           <button className='mt-4 px-4 py-2 w-[200px] uppercase tracking-wider rounded m-auto font-bold  bg-blue-500 hover:bg-blue-600 text-[#FFF]'>
-            My wrok
+            My work
           </button>
         </Link>
       </div>
