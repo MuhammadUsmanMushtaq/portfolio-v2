@@ -3,14 +3,14 @@ import Image from 'next/image';
 
 const about = () => {
   return (
-    <div className=' p-4 flex flex-wrap gap-4 md:justify-center m-auto max-w-[1240px]'>
+    <div className=' p-4 md:mt-12 flex flex-wrap gap-4 md:justify-center m-auto max-w-[1240px]'>
       <div className='py-4 md:flex-1'>
         <Image
           src='/images/about.jpg'
           width={540}
           height={600}
           objectFit='cover'
-          className=' rounded'
+          className='rounded-lg shadow-lg'
         />
       </div>
       <div className='md:flex-1 py-4'>
@@ -63,17 +63,17 @@ const about = () => {
             challenge.
           </li>
           <li className=' m-2'>
-            <span className='font-bold'>Games</span> 🎮 I love playing games
-            with friends in my downtime. Currently playing: Resident evil, Need
-            for speed, God of war, and Last of us. I also enjoy playing board
-            games!
+            <span className='font-bold'>Games</span> 🎮 I love playing video
+            games with friends in my downtime. Currently playing: Resident evil,
+            Need for speed, God of war, and Last of us. I also enjoy playing
+            board games!
           </li>
           <li className=' m-2'>
             <span className='font-bold'>Music</span> 🎵 I like Eastren classical
             music and my favorite artist is Mehdi Hassan, Nustrat Fateh ali
             khan. I have a very good vocal as well and I love to sing.
           </li>
-          <li className=' m-2'>
+          <li className=' m-2 mb-12'>
             <span className='font-bold'>Nature</span> ⛰️ I Love to be in
             mountain and enjoy the beauty of nature. I have been in swedish
             mountains many times and I love to go there again.

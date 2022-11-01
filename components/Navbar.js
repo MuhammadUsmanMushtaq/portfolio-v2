@@ -25,11 +25,11 @@ const Navbar = () => {
         />
       </Link>
 
-      <ul className='hidden sm:flex gap-4'>
+      <ul className='hidden sm:flex gap-8'>
         <li
           className={
             router.pathname == '/'
-              ? 'border-b-2 border-blue-500 text-blue-500 text-lg'
+              ? 'border-b-4 border-blue-500 text-blue-500 text-lg'
               : 'text-lg hover:text-blue-500'
           }
         >
@@ -38,7 +38,7 @@ const Navbar = () => {
         <li
           className={
             router.pathname == '/work'
-              ? 'border-b-2 border-blue-500 text-blue-500 text-lg'
+              ? 'border-b-4 border-blue-500 text-blue-500 text-lg'
               : 'text-lg hover:text-blue-500'
           }
         >
@@ -48,7 +48,7 @@ const Navbar = () => {
         <li
           className={
             router.pathname == '/about'
-              ? 'border-b-2 border-blue-500 text-blue-500 text-lg'
+              ? 'border-b-4 border-blue-500 text-blue-500 text-lg'
               : 'text-lg hover:text-blue-500'
           }
         >

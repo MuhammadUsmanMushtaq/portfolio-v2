@@ -4,7 +4,7 @@ import Link from 'next/link';
 
 const Work = () => {
   return (
-    <div className='p-4 max-w-[1240px] m-auto'>
+    <div className='p-4 md:mt-12 max-w-[1240px] m-auto'>
       <h1 className='text-3xl md:text-4xl font-bold text-center pb-10 '>
         My Work
       </h1>
