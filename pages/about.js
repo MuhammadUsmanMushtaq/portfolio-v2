@@ -3,17 +3,20 @@ import Image from 'next/image';
 
 const about = () => {
   return (
-    <div className=' p-6 flex flex-wrap gap-4 md:justify-center  m-auto  max-w-[1240px]'>
-      <div className='py-4 md:flex-1 '>
+    <div className=' p-4 flex flex-wrap gap-4 md:justify-center m-auto max-w-[1240px]'>
+      <div className='py-4 md:flex-1'>
         <Image
           src='/images/about.jpg'
           width={540}
           height={600}
           objectFit='cover'
+          className=' rounded'
         />
       </div>
       <div className='md:flex-1 py-4'>
-        <h1 className='text-3xl  md:text-6xl'>Hi there, I'am Usman</h1>
+        <h1 className='text-3xl  md:text-6xl mb-4 md:mb-10'>
+          Hi there, I'am Usman
+        </h1>
         <p className='py-4 text-lg tracking-wider leading-loose'>
           I am a fullstack software developer based in stockholm with a passion
           for building web and mobile applications. I have a strong background

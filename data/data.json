@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "title": "star war api",
+    "title": "starwars api",
     "description": " A star war characters information search app and it uses SWAPI API, react, styled components and netlify for deployment.",
     "challenge": "some challenge",
     "solution": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",

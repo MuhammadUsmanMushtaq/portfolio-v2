@@ -24,7 +24,7 @@ export const getStaticProps = async (context) => {
 
 const Details = ({ project }) => {
   return (
-    <div className='m-auto p-6  '>
+    <div className='m-auto p-4  '>
       <h1 className='text-4xl  m-auto text-center pb-10 uppercase'>
         {project.title}
       </h1>
@@ -35,7 +35,7 @@ const Details = ({ project }) => {
             alt='EuBike'
             width={900}
             height={760}
-            objectFit='contain'
+            objectFit='cover'
           />
         </div>
       </div>

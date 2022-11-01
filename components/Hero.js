@@ -7,12 +7,12 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 const Hero = () => {
   return (
-    <div className='max-w-[1240px] m-auto flex items-center flex-wrap md:flex-col justify-center'>
+    <div className='max-w-[1240px] p-4 m-auto flex items-center flex-wrap md:flex-col justify-center'>
       <div className='shadow-lg rounded-full p-2 h-60 w-60 my-4'>
         <Image
           className=' object-cover rounded-full'
           src='/images/profile_img.png'
-          alt='hero'
+          alt='hero_image'
           width={300}
           height={300}
         />
@@ -27,7 +27,7 @@ const Hero = () => {
           </span>
           Developer
         </h2>
-        <p className='py-4 text-xl text-[#292929] md:w-[600px]'>
+        <p className='py-6 tracking-wider text-xl text-[#292929] md:w-[600px]'>
           Passionate, Motivated fullstack devloper who design thoughtful digital
           experiences.
         </p>
@@ -55,7 +55,7 @@ const Hero = () => {
           </Link>
         </div>
         <Link href='/work'>
-          <button className='mt-4 px-4 py-2 w-[200px] uppercase tracking-wider rounded m-auto font-bold  bg-blue-500 hover:bg-blue-600 text-[#FFF]'>
+          <button className=' mt-4 px-6 py-4 w-[240px] uppercase tracking-wider rounded m-auto font-bold  bg-blue-500 hover:bg-blue-600 text-[#FFF] hover:shadow-md '>
             My work
           </button>
         </Link>

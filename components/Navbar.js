@@ -2,9 +2,12 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import { Divide as Hamburger } from 'hamburger-react';
 import Image from 'next/image';
+import { useRouter } from 'next/router';
 
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
+
+  const router = useRouter();
 
   const toggle = () => {
     setOpen(!isOpen);
@@ -14,21 +17,42 @@ const Navbar = () => {
     <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-[#292929]'>
       <Link href='/'>
         <Image
-          src='/logo.png'
-          width={70}
-          height={70}
+          src='/images/logo.png'
+          width={90}
+          height={90}
           className='cursor-pointer'
+          objectFit='contain'
         />
       </Link>
-      <ul className='hidden sm:flex '>
-        <li className='p-4  hover:text-blue-500'>
+
+      <ul className='hidden sm:flex gap-4'>
+        <li
+          className={
+            router.pathname == '/'
+              ? 'border-b-2 border-blue-500 text-blue-500 text-lg'
+              : 'text-lg hover:text-blue-500'
+          }
+        >
           <Link href='/'>Home</Link>
         </li>
 
-        <li className='p-4  hover:text-blue-500'>
+        <li
+          className={
+            router.pathname == '/about'
+              ? 'border-b-2 border-blue-500 text-blue-500 text-lg'
+              : 'text-lg hover:text-blue-500'
+          }
+        >
           <Link href='/about'>About</Link>
         </li>
-        <li className='p-4  hover:text-blue-500'>
+
+        <li
+          className={
+            router.pathname == '/work'
+              ? 'border-b-2 border-blue-500 text-blue-500 text-lg'
+              : 'text-lg hover:text-blue-500'
+          }
+        >
           <Link href='/work'>Work</Link>
         </li>
       </ul>
