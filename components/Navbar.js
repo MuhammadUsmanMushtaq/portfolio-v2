@@ -20,7 +20,7 @@ const Navbar = () => {
           src='/images/logo.png'
           width={90}
           height={90}
-          className='cursor-pointer'
+          className='cursor-pointer '
           objectFit='contain'
         />
       </Link>
@@ -35,6 +35,15 @@ const Navbar = () => {
         >
           <Link href='/'>Home</Link>
         </li>
+        <li
+          className={
+            router.pathname == '/work'
+              ? 'border-b-2 border-blue-500 text-blue-500 text-lg'
+              : 'text-lg hover:text-blue-500'
+          }
+        >
+          <Link href='/work'>Work</Link>
+        </li>
 
         <li
           className={
@@ -45,17 +54,8 @@ const Navbar = () => {
         >
           <Link href='/about'>About</Link>
         </li>
-
-        <li
-          className={
-            router.pathname == '/work'
-              ? 'border-b-2 border-blue-500 text-blue-500 text-lg'
-              : 'text-lg hover:text-blue-500'
-          }
-        >
-          <Link href='/work'>Work</Link>
-        </li>
       </ul>
+
       {/* mobile hem menu */}
       <div onClick={toggle} className='block cursor-pointer sm:hidden z-[999]'>
         {<Hamburger toggled={isOpen} toggle={setOpen} />}
@@ -79,13 +79,13 @@ const Navbar = () => {
             onClick={toggle}
             className='p-4 text-4xl  text-blue-500  hover:text-blue-600'
           >
-            <Link href='/about'>About</Link>
+            <Link href='/work'>Work</Link>
           </li>
           <li
             onClick={toggle}
             className='p-4 text-4xl  text-blue-500  hover:text-blue-600'
           >
-            <Link href='/work'>Work</Link>
+            <Link href='/about'>About</Link>
           </li>
         </ul>
       </div>

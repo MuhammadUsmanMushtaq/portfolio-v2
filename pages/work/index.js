@@ -11,15 +11,14 @@ const Work = () => {
       {data.map((project) => (
         <div
           key={project.id}
-          className='flex justify-center items-center flex-wrap md:flex-nowrap drop-shadow  bg-gray-50 rounded max-w-[1240px] m-auto p-6 mb-6'
+          className='flex justify-center items-center flex-wrap md:flex-nowrap drop-shadow  bg-gray-50 rounded max-w-[1240px]  p-6 mb-6'
         >
           <Image
             src={project.image}
-            alt='fakeibdb'
+            alt='image'
             width={380}
             height={340}
             objectFit='contain'
-            className='rounded '
           />
 
           <div className='pt-4 md:pt-0 md:pl-6 '>

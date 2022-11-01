@@ -28,14 +28,14 @@ const Details = ({ project }) => {
       <h1 className='text-4xl  m-auto text-center pb-10 uppercase'>
         {project.title}
       </h1>
-      <div className='flex justify-center items-center flex-wrap drop-shadow  bg-gray-50 rounded max-w-[1240px] m-auto p-6 mb-6'>
+      <div className='flex justify-center items-center flex-wrap drop-shadow  bg-black rounded max-w-[1240px] m-auto p-6 mb-6'>
         <div className=' '>
           <Image
             src={project.image}
-            alt='EuBike'
-            width={900}
-            height={760}
-            objectFit='cover'
+            alt='image'
+            width={800}
+            height={600}
+            objectFit='contain'
           />
         </div>
       </div>
@@ -69,7 +69,7 @@ const Details = ({ project }) => {
           <Link href={project.github}>
             <a
               target='_blank'
-              className='text-1xl tracking-wider uppercase px-6 py-1 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF] mr-4 '
+              className='w-[120px] text-center px-4 py-2 uppercase tracking-wider rounded bg-blue-500 hover:bg-blue-600 text-[#FFF] mr-4'
             >
               github
             </a>
@@ -77,7 +77,7 @@ const Details = ({ project }) => {
           <Link href={project.live}>
             <a
               target='_blank'
-              className='text-1xl tracking-wider uppercase px-6 py-1 border-solid border-2 rounded border-blue-600 font-bold text-blue-600 hover:bg-blue-600 hover:text-[#FFF] mr-4 '
+              className='w-[120px] text-center px-4 py-2 uppercase tracking-wider rounded bg-blue-500 hover:bg-blue-600 text-[#FFF]'
             >
               Live
             </a>
