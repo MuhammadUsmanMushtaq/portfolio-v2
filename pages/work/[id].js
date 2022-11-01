@@ -40,9 +40,9 @@ const Details = ({ project }) => {
         </div>
       </div>
 
-      <h1 className='text-3xl md:text-4xl py-6 text-center'>
+      {/* <h1 className='text-3xl md:text-4xl py-6 text-center'>
         Project Overview
-      </h1>
+      </h1> */}
       <div className='flex flex-col  max-w-[800px] m-auto  md:p-0'>
         <h2 className=' py-2 text-1xl uppercase tracking-wider font-bold'>
           challenge

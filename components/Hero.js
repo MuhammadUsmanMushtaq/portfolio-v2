@@ -11,7 +11,7 @@ const Hero = () => {
       <div className='shadow-lg rounded-full p-2 h-60 w-60 my-4'>
         <Image
           className=' object-cover rounded-full'
-          src='/images/profile_img.png'
+          src='/images/profile_pic.jpg'
           alt='hero_image'
           width={300}
           height={300}

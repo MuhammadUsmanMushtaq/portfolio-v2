@@ -4,6 +4,22 @@ import { Divide as Hamburger } from 'hamburger-react';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 
+// `onClick`, `href`, and `ref` need to be passed to the DOM element
+// for proper handling
+const MyLogo = React.forwardRef(({ onClick, href }, ref) => {
+  return (
+    <a href={href} onClick={onClick} ref={ref}>
+      <Image
+        src='/images/logo.png'
+        width={90}
+        height={90}
+        className='cursor-pointer '
+        objectFit='contain'
+      />
+    </a>
+  );
+});
+
 const Navbar = () => {
   const [isOpen, setOpen] = useState(false);
 
@@ -16,13 +32,7 @@ const Navbar = () => {
   return (
     <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-[#292929]'>
       <Link href='/'>
-        <Image
-          src='/images/logo.png'
-          width={90}
-          height={90}
-          className='cursor-pointer '
-          objectFit='contain'
-        />
+        <MyLogo />
       </Link>
 
       <ul className='hidden sm:flex gap-8'>
