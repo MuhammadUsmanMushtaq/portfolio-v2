@@ -11,7 +11,7 @@ const Work = () => {
       {data.map((project) => (
         <div
           key={project.id}
-          className='flex justify-center items-center flex-wrap md:flex-nowrap drop-shadow  bg-gray-50 rounded max-w-[1240px]  p-6 mb-6'
+          className='md:flex md:justify-center md:items-center md:flex-nowrap drop-shadow  bg-gray-50 rounded max-w-[1240px] p-6 mb-6'
         >
           <Image
             src={project.image}
@@ -23,12 +23,12 @@ const Work = () => {
 
           <div className='pt-4 md:pt-0 md:pl-6 '>
             <h2 className='text-2xl font-bold uppercase'>{project.title}</h2>
-            <p className='text-lg tracking-wideer leading-loose pb-6 md:pt-2 md:w-[400px] lg:w-[600px]'>
+            <p className='text-lg  pb-6 md:pt-2 md:w-[400px] lg:w-[600px]'>
               {project.description}
             </p>
 
             <Link href={'/work/' + project.id} key={project.id}>
-              <a className='px-6 py-3 tracking-wider rounded bg-blue-500 hover:bg-blue-600 text-[#FFF]'>
+              <a className='block md:inline text-center px-6 py-3 rounded bg-blue-500 hover:bg-blue-600 text-[#FFF]'>
                 Read more
               </a>
             </Link>

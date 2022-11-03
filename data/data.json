@@ -17,7 +17,7 @@
     "tools": " html, css, react, node, express,",
     "image": "/images/fake_imdb.png",
     "github": "https://github.com/MuhammadUsmanMushtaq/hackday-project",
-    "live": "live link"
+    "live": ""
   },
   {
     "id": 3,
@@ -34,19 +34,19 @@
     "title": "wait cure",
     "description": " WaitCure by Zymego is a web application to improve patient waiting times. Patients can reschedule, get earlier times or cancel their appointments through a simple UI.",
     "details": "Waitcure is my internship project at Zymego. I worked on the design of the app from scratch. I started the project with user research, which included patients and nurses user groups. Figma was used to create clickable prototypes. After several rounds of iterations, I along with the back end developer created the app with React, we made use of material designs UI components and graphql to mock the data for the first version of the app.",
-    "tools": "Miro, Figma, User research and testing, html, css, javascript, React.s",
+    "tools": "Miro, Figma, User research and testing, html, css, javascript, React",
     "image": "/images/waitcure.png",
-    "github": "gitlink",
+    "github": "",
     "live": "https://www.figma.com/proto/ylTFLMybDSfNI8ccGbg0BX/Waitcure-Prototype?node-id=2%3A1&viewport=496%2C431%2C0.14515800774097443&scaling=scale-down&page-id=0%3A1"
   },
   {
     "id": 5,
     "title": "ux review for eu bikes",
     "description": "UX review on EU bike service and recommend improvements to satisfy both the user goals and the business goals.",
-    "details": "The main aim of this school project was to analyze the user experience of the EU bike service and to recommend improvements to satisfy both the user goals and the business goals. This project was a UX research project, I used user research methods such as usability testing, empathy mapping, heuristic evaluations to bring out all the usability issues asscociated with the app and proposed design recommendations to improve the UX of the app..",
+    "details": "The main aim of this school project was to analyze the user experience of the EU bike service and to recommend improvements to satisfy both the user goals and the business goals. This project was a UX research project, I used user research methods such as usability testing, empathy mapping, heuristic evaluations to bring out all the usability issues asscociated with the app and proposed design recommendations to improve the UX of the app.",
     "tools": "miro, figma, user research, user testing, user flows, wireframes, prototyping",
     "image": "/images/EuBike.png",
-    "github": "gitlink",
+    "github": "",
     "live": "https://www.figma.com/proto/ylTFLMybDSfNI8ccGbg0BX/Waitcure-Prototype?node-id=2%3A1&viewport=496%2C431%2C0.14515800774097443&scaling=scale-down&page-id=0%3A1"
   },
   {

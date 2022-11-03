@@ -11,8 +11,8 @@ const MyLogo = React.forwardRef(({ onClick, href }, ref) => {
     <a href={href} onClick={onClick} ref={ref}>
       <Image
         src='/images/logo.png'
-        width={90}
-        height={90}
+        width={80}
+        height={80}
         className='cursor-pointer '
         objectFit='contain'
       />
@@ -107,3 +107,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// block md:inline text-center px-4 py-3 uppercase tracking-wider rounded border-2 border-blue-500 hover:bg-blue-500 text-blue-500 md:hover:text-white font-bold mb-2 md:mr-2

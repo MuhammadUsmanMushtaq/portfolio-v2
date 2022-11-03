@@ -17,7 +17,7 @@ const about = () => {
         <h1 className='text-3xl  md:text-6xl mb-4 md:mb-10'>
           Hi there, I'am Usman
         </h1>
-        <p className='py-4 text-lg tracking-wider leading-loose'>
+        <p className='py-4 text-lg tracking-wider'>
           I am a fullstack software developer based in Stockholm with a passion
           for building web and mobile applications. I have a strong background
           in designing and I am open to new challenges. I am a fast learner and
@@ -54,7 +54,7 @@ const about = () => {
       </div>
       <div className='max-w-[1240px]flex flex-col'>
         <h1 className='text-3xl md:text-6xl'>Other things i enjoy...</h1>
-        <ul className='py-4 pl-10 text-lg list-disc tracking-wider leading-loose'>
+        <ul className='py-4 pl-10 text-lg list-disc tracking-wider'>
           <li className=' m-2'>
             <span className='font-bold'>Food & Desserts</span> 🥗 🍩I’m always
             on the lookout for the next best food, dessert, and coffee spots in

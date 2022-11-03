@@ -7,8 +7,8 @@ import { HiOutlineMail } from 'react-icons/hi';
 
 const Hero = () => {
   return (
-    <div className='max-w-[1240px] p-4 m-auto flex items-center flex-wrap md:flex-col justify-center'>
-      <div className='shadow-lg rounded-full p-2 h-60 w-60 my-4'>
+    <div className='max-w-[600px] p-4 m-auto text-center '>
+      <div className='m-auto shadow-lg rounded-full p-2 h-60 w-60 mb-4'>
         <Image
           className=' object-cover rounded-full'
           src='/images/profile_pic.jpg'
@@ -17,7 +17,7 @@ const Hero = () => {
           height={300}
         />
       </div>
-      <div className='flex justify-center flex-col text-center tracking-wider leading-loose'>
+      <div className='tracking-wider leading-loose'>
         <h2 className='text-3xl md:text-4xl text-[#292929]'>
           Hi there. I am Usman,
           <br />
@@ -27,7 +27,7 @@ const Hero = () => {
           </span>
           Web Developer
         </h2>
-        <p className='py-6 tracking-wider text-xl text-[#292929] md:w-[600px]'>
+        <p className='py-6 tracking-wider text-xl text-[#292929] '>
           Always passionate and motivated to design thoughtful digital
           experiences.
         </p>
@@ -55,7 +55,7 @@ const Hero = () => {
           </Link>
         </div>
         <Link href='/work'>
-          <button className=' mt-4 px-6 py-4 w-[240px] uppercase tracking-wider rounded m-auto font-bold  bg-blue-500 hover:bg-blue-600 text-[#FFF] hover:shadow-md '>
+          <button className=' mt-4 px-4 py-2 w-[180px] tracking-wider rounded m-auto bg-blue-500 hover:bg-blue-600 text-[#FFF] hover:shadow-md '>
             My work
           </button>
         </Link>
