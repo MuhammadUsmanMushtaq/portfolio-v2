@@ -18,7 +18,7 @@ const about = () => {
           Hi there, I'am Usman
         </h1>
         <p className='py-4 text-lg tracking-wider leading-loose'>
-          I am a fullstack software developer based in stockholm with a passion
+          I am a fullstack software developer based in Stockholm with a passion
           for building web and mobile applications. I have a strong background
           in designing and I am open to new challenges. I am a fast learner and
           I am always looking for new opportunities to learn and grow.
@@ -43,11 +43,11 @@ const about = () => {
           <span className='font-bold '>
             How did i get into software development?
           </span>
-          <br />I was always interested in a career in tech, but I didn't know
-          how to get started. I was working as a UX/UI designer at SustainLab,
-          and I was looking for a way to expand my skillset. I started to learn
+          <br />I was always interested in a career in tech, but didn't know how
+          to get started. I was working as a UX/UI designer at SustainLab, and
+          was looking for a way to expand my skillset. I then started to learn
           how to code, and I fell in love with it. I was able to apply my design
-          skills to the code, and I was able to create things that I never
+          skills along with code, and I was able to create things that I never
           thought I could. I decided to make a career change, and I am now a
           fullstack software developer.
         </p>

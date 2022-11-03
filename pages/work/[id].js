@@ -25,7 +25,7 @@ export const getStaticProps = async (context) => {
 const Details = ({ project }) => {
   return (
     <div className='m-auto p-4 md:mt-12 '>
-      <h1 className='text-4xl  m-auto text-center pb-10 uppercase'>
+      <h1 className='text-4xl m-auto text-center pb-10 uppercase'>
         {project.title}
       </h1>
       <div className='flex justify-center items-center flex-wrap drop-shadow  bg-black rounded max-w-[1240px] m-auto p-6 mb-6'>
@@ -45,17 +45,10 @@ const Details = ({ project }) => {
       </h1> */}
       <div className='flex flex-col  max-w-[800px] m-auto  md:p-0'>
         <h2 className=' py-2 text-1xl uppercase tracking-wider font-bold'>
-          challenge
+          Details
         </h2>
-        <p className='text-xl tracking-wider leading-loose mb-4'>
-          {project.challenge}
-        </p>
-
-        <h2 className='py-2 text-1xl uppercase tracking-wider font-bold '>
-          solution
-        </h2>
-        <p className='text-xl tracking-wider leading-loose mb-4'>
-          {project.solution}
+        <p className='text-lg tracking-wider leading-loose mb-4'>
+          {project.details}
         </p>
 
         <h2 className='py-2 text-1xl uppercase tracking-wider font-bold'>
@@ -65,7 +58,7 @@ const Details = ({ project }) => {
         <p className=' md:w-[800px] tracking-wider leading-loose mb-4 uppercase'>
           {project.tools}
         </p>
-        <div className=' flex justify-start items-center mb-4 '>
+        <div className=' flex justify-center md:justify-start items-center'>
           <Link href={project.github}>
             <a
               target='_blank'
@@ -83,6 +76,11 @@ const Details = ({ project }) => {
             </a>
           </Link>
         </div>
+        <Link href='/work'>
+          <a className='py-10 text-lg text-center underline text-blue-600'>
+            Back to work
+          </a>
+        </Link>
       </div>
     </div>
   );

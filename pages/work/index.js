@@ -23,14 +23,15 @@ const Work = () => {
 
           <div className='pt-4 md:pt-0 md:pl-6 '>
             <h2 className='text-2xl font-bold uppercase'>{project.title}</h2>
-            <p className='text-xl my-4 md:w-[400px] lg:w-[600px]'>
+            <p className='text-lg tracking-wideer leading-loose pb-6 md:pt-2 md:w-[400px] lg:w-[600px]'>
               {project.description}
             </p>
-            <button className='px-6 py-4 uppercase tracking-wider rounded m-auto font-bold  bg-blue-500 hover:bg-blue-600 text-[#FFF]'>
-              <Link href={'/work/' + project.id} key={project.id}>
+
+            <Link href={'/work/' + project.id} key={project.id}>
+              <a className='px-6 py-3 tracking-wider rounded bg-blue-500 hover:bg-blue-600 text-[#FFF]'>
                 Read more
-              </Link>
-            </button>
+              </a>
+            </Link>
           </div>
         </div>
       ))}

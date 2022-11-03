@@ -25,10 +25,10 @@ const Hero = () => {
           <span className='italic text-blue-500 drop-shadow-md'>
             Fullstack{' '}
           </span>
-          Developer
+          Web Developer
         </h2>
         <p className='py-6 tracking-wider text-xl text-[#292929] md:w-[600px]'>
-          Passionate, Motivated fullstack devloper who design thoughtful digital
+          Always passionate and motivated to design thoughtful digital
           experiences.
         </p>
         <div className='py-4 flex justify-center gap-8'>
