@@ -67,7 +67,10 @@ const Navbar = () => {
       </ul>
 
       {/* mobile hem menu */}
-      <div onClick={toggle} className='block cursor-pointer sm:hidden z-[999]'>
+      <div
+        onClick={toggle}
+        className='text-blue-500 block cursor-pointer sm:hidden z-[999]'
+      >
         {<Hamburger toggled={isOpen} toggle={setOpen} />}
       </div>
       {/* mobile menu */}

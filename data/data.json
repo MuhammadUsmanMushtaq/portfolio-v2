@@ -1,6 +1,17 @@
 [
   {
     "id": 1,
+    "title": "Tech-Talk",
+    "description": " Tech-Talk is an app where user can add all tech meetups make them favorite and create new meet up using react, google firebase, tailwind css.",
+    "challenge": "some challenge",
+    "solution": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
+    "tools": " html, css, react, tailwind css, firebase,",
+    "image": "/images/tech-talk.png",
+    "github": "https://github.com/MuhammadUsmanMushtaq/tech-talk",
+    "live": "https://tech2talk.netlify.app/"
+  },
+  {
+    "id": 2,
     "title": "fake imdb",
     "description": " IMDB movie search fullstack app and it uses OMDB API, react, node, and express.",
     "challenge": "some challenge lorum10  ipsum 10 ",
@@ -11,7 +22,7 @@
     "live": "live link"
   },
   {
-    "id": 2,
+    "id": 3,
     "title": "starwars api",
     "description": " A star war characters information search app and it uses SWAPI API, react, styled components and netlify for deployment.",
     "challenge": "some challenge",
@@ -22,7 +33,7 @@
     "live": "https://starwars-swapi-usman.netlify.app/"
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "wait cure",
     "description": " WaitCure by Zymego is a web application to improve patient waiting times. Patients can reschedule, get earlier times or cancel their appointments through a simple UI.",
     "challenge": "some challenge",
@@ -33,7 +44,7 @@
     "live": "https://www.figma.com/proto/ylTFLMybDSfNI8ccGbg0BX/Waitcure-Prototype?node-id=2%3A1&viewport=496%2C431%2C0.14515800774097443&scaling=scale-down&page-id=0%3A1"
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "ux review for eu bikes",
     "description": "UX review on EU bike service and recommend improvements to satisfy both the user goals and the business goals.",
     "challenge": "some challenge",
@@ -44,7 +55,7 @@
     "live": "https://www.figma.com/proto/ylTFLMybDSfNI8ccGbg0BX/Waitcure-Prototype?node-id=2%3A1&viewport=496%2C431%2C0.14515800774097443&scaling=scale-down&page-id=0%3A1"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "portfolio v1",
     "description": " Personal portfolio page using react, styled components and netlify for deployment.",
     "challenge": "some challenge",
@@ -53,16 +64,5 @@
     "image": "/images/portfolio_v1.png",
     "github": "https://github.com/MuhammadUsmanMushtaq/portfolio",
     "live": "https://muhammad-usman.netlify.app/"
-  },
-  {
-    "id": 6,
-    "title": "kyh landing page",
-    "description": " Redesign of the frontend program page of KYH using vanilla Javascript, HTML and CSS.",
-    "challenge": "some challenge",
-    "solution": "Your perfect pack for everyday use and walks in the forest. Stash your laptop (up to 15 inches) in the padded sleeve, your everyday",
-    "tools": " html, css, vanilla javascript",
-    "image": "/images/kyh_page.png",
-    "github": "https://github.com/MuhammadUsmanMushtaq/frontend_kyh_landing_page",
-    "live": "https://muhammadusmanmushtaq.github.io/frontend_kyh_landing_page/"
   }
 ]

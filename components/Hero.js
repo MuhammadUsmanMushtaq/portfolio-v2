@@ -17,7 +17,7 @@ const Hero = () => {
           height={300}
         />
       </div>
-      <div className='p-4 flex justify-center flex-col text-center tracking-wider leading-loose'>
+      <div className='flex justify-center flex-col text-center tracking-wider leading-loose'>
         <h2 className='text-3xl md:text-4xl text-[#292929]'>
           Hi there. I am Usman,
           <br />
