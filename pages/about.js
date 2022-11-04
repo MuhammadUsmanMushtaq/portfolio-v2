@@ -4,7 +4,7 @@ import Image from 'next/image';
 const about = () => {
   return (
     <div className=' p-4 md:mt-12 flex flex-wrap gap-4 md:justify-center m-auto max-w-[1240px]'>
-      <div className='py-4 md:flex-1'>
+      <div className='py-4 sm:m-auto md:m-0 md:flex-1'>
         <Image
           src='/images/about.jpg'
           width={540}
@@ -20,8 +20,8 @@ const about = () => {
         <p className='py-4 text-lg tracking-wider'>
           I am a fullstack software developer based in Stockholm with a passion
           for building web and mobile applications. I have a strong background
-          in designing and I am open to new challenges. I am a fast learner and
-          I am always looking for new opportunities to learn and grow.
+          in designing and open to new challenges. I am a fast learner and
+          always looking for new opportunities to learn and grow.
           <br />
           <br />
           Growing up, whenever someone asked me what my dream was, I would

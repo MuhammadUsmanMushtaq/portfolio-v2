@@ -18,44 +18,49 @@ const Hero = () => {
         />
       </div>
       <div className='tracking-wider leading-loose'>
-        <h2 className='text-3xl md:text-4xl text-[#292929]'>
+        <h2 className='text-3xl md:text-4xl'>
           Hi there. I am Usman,
           <br />
           <span>a </span>
-          <span className='italic text-blue-500 drop-shadow-md'>
+          <span className='italic text-blue-500 drop-shadow-md '>
             Fullstack{' '}
           </span>
           Web Developer
         </h2>
-        <p className='py-6 tracking-wider text-xl text-[#292929] '>
+        <p className='py-6 tracking-wider text-xl'>
           Always passionate and motivated to design thoughtful digital
           experiences.
         </p>
-        <div className='py-4 flex justify-center gap-8'>
+        <div className='py-4 flex justify-center items-center gap-4'>
           <Link href={'mailto:usman820901@gmail.com'}>
             <a target='_blank'>
               <HiOutlineMail
-                className='cursor-pointer '
+                className='cursor-pointer text-gray-400 hover:text-blue-500 hover:animate-pulse'
                 size={24}
-                color='gray'
               />
             </a>
           </Link>
 
           <Link href={'https://www.linkedin.com/in/muhammad-usman-78491149/'}>
             <a target='_blank'>
-              <ImLinkedin className='cursor-pointer' size={24} color='gray' />
+              <ImLinkedin
+                className='cursor-pointer text-gray-400 hover:text-blue-500 hover:animate-pulse'
+                size={20}
+              />
             </a>
           </Link>
 
           <Link href={'https://github.com/MuhammadUsmanMushtaq'}>
             <a target='_blank'>
-              <FaGithub className='cursor-pointer' size={24} color='gray' />
+              <FaGithub
+                className='cursor-pointer  text-gray-400 hover:text-blue-500 hover:animate-pulse'
+                size={20}
+              />
             </a>
           </Link>
         </div>
         <Link href='/work'>
-          <button className=' mt-4 px-4 py-2 w-[180px] tracking-wider rounded m-auto bg-blue-500 hover:bg-blue-600 text-[#FFF] hover:shadow-md '>
+          <button className='mt-4 px-4 py-2 w-[180px] tracking-wider rounded m-auto bg-blue-500 hover:bg-blue-600 text-[#FFF] hover:shadow-md'>
             My work
           </button>
         </Link>

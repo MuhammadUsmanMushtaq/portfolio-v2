@@ -13,7 +13,7 @@ const MyLogo = React.forwardRef(({ onClick, href }, ref) => {
         src='/images/logo.png'
         width={80}
         height={80}
-        className='cursor-pointer '
+        className='cursor-pointer'
         objectFit='contain'
       />
     </a>
@@ -30,7 +30,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-[#292929]'>
+    <div className='max-w-[1240px] m-auto flex justify-between items-center p-4'>
       <Link href='/'>
         <MyLogo />
       </Link>
@@ -49,7 +49,7 @@ const Navbar = () => {
           className={
             router.pathname == '/work'
               ? 'border-b-4 border-blue-500 text-blue-500 text-lg'
-              : 'text-lg hover:text-blue-500'
+              : 'text-lg hover:text-blue-500 '
           }
         >
           <Link href='/work'>Work</Link>
@@ -107,5 +107,3 @@ const Navbar = () => {
 };
 
 export default Navbar;
-
-// block md:inline text-center px-4 py-3 uppercase tracking-wider rounded border-2 border-blue-500 hover:bg-blue-500 text-blue-500 md:hover:text-white font-bold mb-2 md:mr-2
