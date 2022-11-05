@@ -45,6 +45,7 @@ const Navbar = () => {
         >
           <Link href='/'>Home</Link>
         </li>
+
         <li
           className={
             router.pathname == '/work'

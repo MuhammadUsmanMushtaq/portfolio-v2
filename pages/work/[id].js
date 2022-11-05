@@ -32,10 +32,13 @@ const Details = ({ project }) => {
         <div className=' '>
           <Image
             src={project.image}
-            alt='image'
+            alt='project image'
             width={800}
             height={600}
             objectFit='contain'
+            blurDataURL='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAADA...'
+            placeholder='blur'
+            loading='lazy'
           />
         </div>
       </div>
