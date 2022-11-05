@@ -20,10 +20,10 @@ const about = () => {
             Hi there, I'am Usman
           </h1>
           <p className='py-4 text-lg tracking-wider'>
-            I am a fullstack software developer based in Stockholm with a
-            passion for building web and mobile applications. I have a strong
-            background in designing and open to new challenges. I am a fast
-            learner and always looking for new opportunities to learn and grow.
+            I am a full stack web developer based in Stockholm with a passion
+            for building web and mobile applications. I have a strong background
+            in designing and open to new challenges. I am a fast learner and
+            always looking for new opportunities to learn and grow.
             <br />
             <br />
             Growing up, whenever someone asked me what my dream was, I would

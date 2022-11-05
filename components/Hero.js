@@ -25,7 +25,7 @@ const Hero = () => {
             <br />
             <span>a </span>
             <span className='italic text-blue-500 drop-shadow-md '>
-              Fullstack{' '}
+              Full Stack{' '}
             </span>
             Web Developer
           </h2>
