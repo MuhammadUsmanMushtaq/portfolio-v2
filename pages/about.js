@@ -9,10 +9,13 @@ const about = () => {
         <div className='py-4 sm:m-auto md:m-0 md:flex-1'>
           <Image
             src='/images/about.jpg'
+            alt='about image'
             width={540}
             height={600}
             objectFit='cover'
             className='rounded-lg shadow-lg'
+            placeholder='blur'
+            blurDataURL='/images/about.jpg'
           />
         </div>
         <div className='md:flex-1 py-4'>
@@ -43,15 +46,15 @@ const about = () => {
             <br />
             <br />
             <span className='font-bold '>
-              How did i get into software development?
+              How did i get into web development?
             </span>
             <br />I was always interested in a career in tech, but didn't know
-            how to get started. I was working as a UX/UI designer at SustainLab,
-            and was looking for a way to expand my skillset. I then started to
-            learn how to code, and I fell in love with it. I was able to apply
-            my design skills along with code, and I was able to create things
-            that I never thought I could. I decided to make a career change, and
-            I am now a fullstack software developer.
+            how to get started. I was working as a UX/UI developer at
+            SustainLab, and was looking for a way to expand my skillset. I then
+            started to learn how to code, and I fell in love with it. I was able
+            to apply my design skills along with code, and I was able to create
+            things that I never thought I could. I decided to make a career
+            change, and now I am a full stack web developer.
           </p>
         </div>
         <div className='max-w-[1240px]flex flex-col'>
@@ -78,7 +81,7 @@ const about = () => {
             </li>
             <li className=' m-2 mb-12'>
               <span className='font-bold'>Nature</span> ⛰️ I Love to be in
-              mountain and enjoy the beauty of nature. I have been in swedish
+              mountains and enjoy the beauty of nature. I have been in swedish
               mountains many times and I love to go there again.
             </li>
           </ul>

@@ -11,10 +11,13 @@ const MyLogo = React.forwardRef(({ onClick, href }, ref) => {
     <a href={href} onClick={onClick} ref={ref}>
       <Image
         src='/images/logo.png'
+        alt='logo'
         width={80}
         height={80}
         className='cursor-pointer'
         objectFit='contain'
+        placeholder='blur'
+        blurDataURL='/images/logo.png'
       />
     </a>
   );

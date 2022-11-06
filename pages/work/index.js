@@ -15,17 +15,19 @@ const Work = () => {
             key={project.id}
             className='sm:flex sm:justify-center sm:items-center sm:flex-nowrap  sm:gap-6 drop-shadow  bg-gray-50 rounded max-w-[1240px] p-6 md:p-4 mb-6'
           >
-            <Image
-              src={project.image}
-              alt='project image'
-              width={380}
-              height={340}
-              loading='lazy'
-              objectFit='contain'
-              blurDataURL={project.image}
-              placeholder='blur'
-              className='scale-100 hover:scale-105 transition duration-500 ease-in-out'
-            />
+            <div>
+              <Image
+                src={project.image}
+                alt='project image'
+                width={380}
+                height={340}
+                loading='lazy'
+                objectFit='contain'
+                blurDataURL={project.image}
+                placeholder='blur'
+                className='scale-100 hover:scale-105 transition duration-500 ease-in-out'
+              />
+            </div>
 
             <div className='pt-4 md:pt-0 md:pl-6 '>
               <h2 className='text-2xl font-bold uppercase'>{project.title}</h2>
