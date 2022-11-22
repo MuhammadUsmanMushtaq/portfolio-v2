@@ -77,7 +77,7 @@ const Details = ({ project }) => {
               <Link href={project.live}>
                 <a
                   target='_blank'
-                  className='block md:inline text-center text-blue-500 tracking-wider pt-2 font-bold'
+                  className='block md:inline text-center text-blue-500 tracking-wider pb-2 font-bold'
                 >
                   Link to live demo &#10132;
                 </a>
@@ -85,11 +85,9 @@ const Details = ({ project }) => {
             )}
           </div>
 
-          <div className='inline my-10 m-auto scale-100 hover:scale-105 transition duration-500 ease-in-out'>
-            <Link href='/work'>
-              <a className='text-lg text-center underline text-blue-600'>
-                Back to work
-              </a>
+          <div className=' text-lg text-center underline text-blue-600 inline my-10 m-auto scale-100 hover:scale-105 transition duration-500 ease-in-out'>
+            <Link href='/work' className=''>
+              Back to work
             </Link>
           </div>
         </div>

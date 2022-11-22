@@ -19,10 +19,10 @@ const about = () => {
           />
         </div>
         <div className='md:flex-1 py-4'>
-          <h1 className='text-3xl  md:text-6xl mb-4 md:mb-10'>
-            Hi there, I'am Usman
+          <h1 className='text-3xl font-semibold md:text-6xl mb-2 md:mb-8'>
+            Hi there, I'am Usman.
           </h1>
-          <p className='py-4 text-lg tracking-wider'>
+          <p className='py-4 text-lg tracking-wider leading-8'>
             I am a full stack web developer based in Stockholm with a passion
             for building web and mobile applications. I have a strong background
             in designing and open to new challenges. I am a fast learner and
@@ -58,8 +58,8 @@ const about = () => {
           </p>
         </div>
         <div className='max-w-[1240px]flex flex-col'>
-          <h1 className='text-3xl md:text-6xl'>Other things i enjoy...</h1>
-          <ul className='py-4 pl-10 text-lg list-disc tracking-wider'>
+          <h1 className='text-3xl md:text-6xl'>Other things I enjoy...</h1>
+          <ul className='py-4 pl-10 text-lg list-disc tracking-wider leading-8'>
             <li className=' m-2'>
               <span className='font-bold'>Food & Desserts</span> 🥗 🍩I’m always
               on the lookout for the next best food, dessert, and coffee spots
@@ -67,6 +67,7 @@ const about = () => {
               recipies as well. I like spicy food and I’m always up for a good
               challenge.
             </li>
+
             <li className=' m-2'>
               <span className='font-bold'>Games</span> 🎮 I love playing video
               games with friends in my downtime. Currently playing: Resident

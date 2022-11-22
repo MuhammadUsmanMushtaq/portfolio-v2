@@ -25,7 +25,7 @@ const Work = () => {
                 objectFit='contain'
                 blurDataURL={project.image}
                 placeholder='blur'
-                className='scale-100 hover:scale-105 transition duration-500 ease-in-out'
+                // className='scale-100 hover:scale-105 transition duration-500 ease-in-out'
               />
             </div>
 
