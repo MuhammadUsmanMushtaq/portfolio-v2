@@ -22,12 +22,7 @@ const Hero = () => {
         <div className='tracking-wider leading-loose'>
           <h2 className='text-3xl md:text-4xl'>
             Hi there. I am Usman,
-            <br />
-            <span>a </span>
-            <span className='italic text-blue-500 drop-shadow-md '>
-              Full Stack{' '}
-            </span>
-            Web Developer
+            <br />a Frontend ux/ui developer
           </h2>
           <p className='py-6 tracking-wider text-xl'>
             Always passionate and motivated to design thoughtful digital

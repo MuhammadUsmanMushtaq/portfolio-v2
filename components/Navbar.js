@@ -48,6 +48,15 @@ const Navbar = () => {
         >
           <Link href='/'>Home</Link>
         </li>
+        {/* <li
+          className={
+            router.pathname == '/assignments'
+              ? 'border-b-4 border-blue-500 text-blue-500 text-lg'
+              : 'text-lg hover:text-blue-500 '
+          }
+        >
+          <Link href='/assignments'>Assignments</Link>
+        </li> */}
 
         <li
           className={

@@ -23,7 +23,7 @@ const about = () => {
             Hi there, I'am Usman.
           </h1>
           <p className='py-4 text-lg tracking-wider leading-8'>
-            I am a full stack web developer based in Stockholm with a passion
+            I am a front-end ux/ui developer based in Stockholm with a passion
             for building web and mobile applications. I have a strong background
             in designing and open to new challenges. I am a fast learner and
             always looking for new opportunities to learn and grow.
@@ -54,7 +54,7 @@ const about = () => {
             started to learn how to code, and I fell in love with it. I was able
             to apply my design skills along with code, and I was able to create
             things that I never thought I could. I decided to make a career
-            change, and now I am a full stack web developer.
+            change, and now I am a front-end ux/ui developer.
           </p>
         </div>
         <div className='max-w-[1240px]flex flex-col'>
