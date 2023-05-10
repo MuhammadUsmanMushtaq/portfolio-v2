@@ -15,12 +15,12 @@ const Work = () => {
             key={project.id}
             className='sm:flex sm:justify-center sm:items-center sm:flex-nowrap  sm:gap-6 drop-shadow  bg-gray-50 rounded max-w-[1240px] p-6 md:p-4 mb-6'
           >
-            <div>
+            <div className=' rounded-lg bg-black p-2 md:p-4'>
               <Image
                 src={project.image}
                 alt='project image'
-                width={380}
-                height={340}
+                width={360}
+                height={200}
                 loading='lazy'
                 objectFit='contain'
                 blurDataURL={project.image}

@@ -1,23 +1,33 @@
 [
   {
+    "id": 0,
+    "title": "Project Mgmt",
+    "description": "The full-stack React project management app is a web application that allows users to efficiently manage their projects, clients, uses react, MongoDB Bootstrap node express.",
+    "details": "The project mgmt is a simple  app which allow users to add clients and thier projects, also give user an oppertunity to assign multiple project to a specific user. I also develop the crud functionality to this app where user can add clients/ projects, delete them whit simple ui.",
+    "tools": " html, css, react, Bootstrap , MongoDB,node, express, graphQL, Apollo client",
+    "image": "/images/project_mgmt-min.png",
+    "github": "https://github.com/MuhammadUsmanMushtaq/Fullstack-MERN-APP-with-Graphql",
+    "live": ""
+  },
+  {
     "id": 1,
-    "title": "Tech-Talk",
-    "description": " Tech-Talk is an app where user can add all tech meetups, mark them as favorite and create new meetup. Tech-Talk uses react, google firebase and tailwind css.",
-    "details": "I wanted to create an app where I can add all my tech meetups, mark them as favorite and create new meetups all in one place. I did an initial research on meetup apps, and designed wireframes to get a better understanding of the app. After prototyping, I started building the app using React and used google firebase to store the data. I used tailwind css to style the app.",
-    "tools": " html, css, react, tailwind css, firebase,",
-    "image": "/images/tech-talk.png",
-    "github": "https://github.com/MuhammadUsmanMushtaq/tech-talk",
-    "live": "https://tech2talk.netlify.app/"
+    "title": "Shopping Cart",
+    "description": " The shopping cart personal project is a web application that allows users to browse through a collection of products, add delete items to their cart. react, Bootstrap",
+    "details": "The project includes a user-friendly interface where users can view a list of products with details such as name, price, and image. The UI also displays the items in the shopping cart and provides options to remove items or update their quantities.The project fetches product data from locally and dynamically renders the products on the page.The project utilizes React's state management to handle the application's data flow efficiently. It may use state hooks like useState and useEffect to manage the cart items, update quantities, and calculate the total cost.Overall, the shopping cart personal project in React provides users with a smooth and interactive shopping experience. It leverages React's component-based architecture, state management, and other essential features to create a functional and visually appealing e-commerce application.",
+    "tools": " html, css, react, bootstrap , vite,",
+    "image": "/images/shopping-cart.png",
+    "github": "https://github.com/MuhammadUsmanMushtaq/shopping-cart",
+    "live": "https://shoppingcar-t.netlify.app/"
   },
   {
     "id": 2,
-    "title": "fake imdb",
-    "description": " IMDB movie search fullstack app and it uses OMDB API, react, node, and express.",
-    "details": "I worked on the idea to create an app where I can search for movies and their imdb ratings faster. I wanted to get myself comfortable with creating servers and own api by working further on this full stack app. I used omdb an external API for the data and used React to create the front end and node and express to create the server.",
-    "tools": " html, css, react, node, express,",
-    "image": "/images/fake_imdb.png",
-    "github": "https://github.com/MuhammadUsmanMushtaq/hackday-project",
-    "live": ""
+    "title": "Tech-Talk",
+    "description": " Tech-Talk is an app where user can add all tech meetups, mark them as favorite and create new meetup. Tech-Talk uses react, google firebase and tailwind css.",
+    "details": "I wanted to create an app where I can add all my tech meetups, mark them as favorite and create new meetups all in one place. I did an initial research on meetup apps, and designed wireframes to get a better understanding of the app. After prototyping, I started building the app using React and used google firebase to store the data. I used tailwind css to style the app.",
+    "tools": " html, css, react, tailwind , firebase,",
+    "image": "/images/tech-talk.png",
+    "github": "https://github.com/MuhammadUsmanMushtaq/tech-talk",
+    "live": "https://tech2talk.netlify.app/"
   },
   {
     "id": 3,
@@ -31,6 +41,16 @@
   },
   {
     "id": 4,
+    "title": "Next event",
+    "description": " Personal portfolio page using react, styled components and netlify for deployment.",
+    "details": "This is the first version of my portfolio project. I wanted to create a single page simple portfolio to showcase my work and skills. I used React to create the front end and used styled components to style the app.",
+    "tools": "html,css, react, styled components",
+    "image": "/images/next-event.png",
+    "github": "https://github.com/MuhammadUsmanMushtaq/portfolio",
+    "live": "https://muhammad-usman.netlify.app/"
+  },
+  {
+    "id": 5,
     "title": "wait cure",
     "description": " WaitCure by Zymego is a web application to improve patient waiting times. Patients can reschedule, get earlier times or cancel their appointments through a simple UI.",
     "details": "Waitcure is my internship project at Zymego. I worked on the design of the app from scratch. I started the project with user research, which included patients and nurses user groups. Figma was used to create clickable prototypes. After several rounds of iterations, I along with the back end developer created the app with React, we made use of material designs UI components and graphql to mock the data for the first version of the app.",
@@ -40,7 +60,7 @@
     "live": "https://www.figma.com/proto/ylTFLMybDSfNI8ccGbg0BX/Waitcure-Prototype?node-id=2%3A1&viewport=496%2C431%2C0.14515800774097443&scaling=scale-down&page-id=0%3A1"
   },
   {
-    "id": 5,
+    "id": 6,
     "title": "ux review for eu bikes",
     "description": "UX review on EU bike service and recommend improvements to satisfy both the user goals and the business goals.",
     "details": "The main aim of this school project was to analyze the user experience of the EU bike service and to recommend improvements to satisfy both the user goals and the business goals. This project was a UX research project, I used user research methods such as usability testing, empathy mapping, heuristic evaluations to bring out all the usability issues asscociated with the app and proposed design recommendations to improve the UX of the app.",
@@ -48,15 +68,5 @@
     "image": "/images/EuBike.png",
     "github": "",
     "live": "https://www.figma.com/proto/ylTFLMybDSfNI8ccGbg0BX/Waitcure-Prototype?node-id=2%3A1&viewport=496%2C431%2C0.14515800774097443&scaling=scale-down&page-id=0%3A1"
-  },
-  {
-    "id": 6,
-    "title": "portfolio v1",
-    "description": " Personal portfolio page using react, styled components and netlify for deployment.",
-    "details": "This is the first version of my portfolio project. I wanted to create a single page simple portfolio to showcase my work and skills. I used React to create the front end and used styled components to style the app.",
-    "tools": "html,css, react, styled components",
-    "image": "/images/portfolio_v1.png",
-    "github": "https://github.com/MuhammadUsmanMushtaq/portfolio",
-    "live": "https://muhammad-usman.netlify.app/"
   }
 ]
