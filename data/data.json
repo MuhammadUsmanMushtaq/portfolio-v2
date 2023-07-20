@@ -42,12 +42,12 @@
   {
     "id": 4,
     "title": "Next event",
-    "description": " Personal portfolio page using react, styled components and netlify for deployment.",
-    "details": "This is the first version of my portfolio project. I wanted to create a single page simple portfolio to showcase my work and skills. I used React to create the front end and used styled components to style the app.",
-    "tools": "html,css, react, styled components",
+    "description": "Discover Local nearby tech events that connects you to a vibrant world of technology, culture, and community gatherings.Using react, nextjs, tailwind css and netlify for deployment.",
+    "details": "I've always envisioned a website that allows me to discover nearby tech events, providing the perfect opportunity to meet new people and engage in meaningful interactions",
+    "tools": "html,css, react,nextjs tailwind css",
     "image": "/images/next-event.png",
-    "github": "https://github.com/MuhammadUsmanMushtaq/portfolio",
-    "live": "https://muhammad-usman.netlify.app/"
+    "github": "https://github.com/MuhammadUsmanMushtaq/next-events",
+    "live": "https://event-next.netlify.app/"
   },
   {
     "id": 5,
