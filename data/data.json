@@ -9,18 +9,9 @@
     "github": "https://github.com/MuhammadUsmanMushtaq/Fullstack-MERN-APP-with-Graphql",
     "live": ""
   },
+
   {
     "id": 1,
-    "title": "Shopping Cart",
-    "description": " The shopping cart personal project is a web application that allows users to browse through a collection of products, add delete items to their cart. react, Bootstrap",
-    "details": "The project includes a user-friendly interface where users can view a list of products with details such as name, price, and image. The UI also displays the items in the shopping cart and provides options to remove items or update their quantities.The project fetches product data from locally and dynamically renders the products on the page.The project utilizes React's state management to handle the application's data flow efficiently. It may use state hooks like useState and useEffect to manage the cart items, update quantities, and calculate the total cost.Overall, the shopping cart personal project in React provides users with a smooth and interactive shopping experience. It leverages React's component-based architecture, state management, and other essential features to create a functional and visually appealing e-commerce application.",
-    "tools": " html, css, react, bootstrap , vite,",
-    "image": "/images/shopping-cart.png",
-    "github": "https://github.com/MuhammadUsmanMushtaq/shopping-cart",
-    "live": "https://shoppingcar-t.netlify.app/"
-  },
-  {
-    "id": 3,
     "title": "starwars api",
     "description": " A star war characters information search app and it uses SWAPI API, react, styled components and netlify for deployment.",
     "details": "As a fan of starwars, I have always wanted to create an app where I can search for starwars characters and their information. I made use of SWAPI API, a great API for the data I needed and used React to create the front end and used styled components to style the app.",
@@ -30,7 +21,17 @@
     "live": "https://starwars-swapi-usman.netlify.app/"
   },
   {
-    "id": 4,
+    "id": 6,
+    "title": "React to-do app",
+    "description": "Simple react to-do app",
+    "details": "Rewrite this simple React to-do application, which utilizes local storage to store data.",
+    "tools": "html, css, javaScrpit, react, local storage ",
+    "image": "/images/todo.png",
+    "github": "https://github.com/MuhammadUsmanMushtaq/react-todo",
+    "live": "https://react-t0do.netlify.app/"
+  },
+  {
+    "id": 2,
     "title": "Next event",
     "description": "Discover Local nearby tech events that connects you to a vibrant world of technology, culture, and community gatherings.Using react, nextjs, tailwind css and netlify for deployment.",
     "details": "I've always envisioned a website that allows me to discover nearby tech events, providing the perfect opportunity to meet new people and engage in meaningful interactions",
@@ -40,7 +41,17 @@
     "live": "https://event-next.netlify.app/"
   },
   {
-    "id": 5,
+    "id": 3,
+    "title": "Shopping Cart",
+    "description": " The shopping cart personal project is a web application that allows users to browse through a collection of products, add delete items to their cart. react, Bootstrap",
+    "details": "The project includes a user-friendly interface where users can view a list of products with details such as name, price, and image. The UI also displays the items in the shopping cart and provides options to remove items or update their quantities.The project fetches product data from locally and dynamically renders the products on the page.The project utilizes React's state management to handle the application's data flow efficiently. It may use state hooks like useState and useEffect to manage the cart items, update quantities, and calculate the total cost.Overall, the shopping cart personal project in React provides users with a smooth and interactive shopping experience. It leverages React's component-based architecture, state management, and other essential features to create a functional and visually appealing e-commerce application.",
+    "tools": " html, css, react, bootstrap , vite,",
+    "image": "/images/shopping-cart.png",
+    "github": "https://github.com/MuhammadUsmanMushtaq/shopping-cart",
+    "live": "https://shoppingcar-t.netlify.app/"
+  },
+  {
+    "id": 4,
     "title": "wait cure",
     "description": " WaitCure by Zymego is a web application to improve patient waiting times. Patients can reschedule, get earlier times or cancel their appointments through a simple UI.",
     "details": "Waitcure is my internship project at Zymego. I worked on the design of the app from scratch. I started the project with user research, which included patients and nurses user groups. Figma was used to create clickable prototypes. After several rounds of iterations, I along with the back end developer created the app with React, we made use of material designs UI components and graphql to mock the data for the first version of the app.",
@@ -50,7 +61,7 @@
     "live": "https://www.figma.com/proto/ylTFLMybDSfNI8ccGbg0BX/Waitcure-Prototype?node-id=2%3A1&viewport=496%2C431%2C0.14515800774097443&scaling=scale-down&page-id=0%3A1"
   },
   {
-    "id": 6,
+    "id": 5,
     "title": "ux review for eu bikes",
     "description": "UX review on EU bike service and recommend improvements to satisfy both the user goals and the business goals.",
     "details": "The main aim of this school project was to analyze the user experience of the EU bike service and to recommend improvements to satisfy both the user goals and the business goals. This project was a UX research project, I used user research methods such as usability testing, empathy mapping, heuristic evaluations to bring out all the usability issues asscociated with the app and proposed design recommendations to improve the UX of the app.",
