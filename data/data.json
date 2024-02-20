@@ -20,16 +20,6 @@
     "live": "https://shoppingcar-t.netlify.app/"
   },
   {
-    "id": 2,
-    "title": "Tech-Talk",
-    "description": " Tech-Talk is an app where user can add all tech meetups, mark them as favorite and create new meetup. Tech-Talk uses react, google firebase and tailwind css.",
-    "details": "I wanted to create an app where I can add all my tech meetups, mark them as favorite and create new meetups all in one place. I did an initial research on meetup apps, and designed wireframes to get a better understanding of the app. After prototyping, I started building the app using React and used google firebase to store the data. I used tailwind css to style the app.",
-    "tools": " html, css, react, tailwind , firebase,",
-    "image": "/images/tech-talk.png",
-    "github": "https://github.com/MuhammadUsmanMushtaq/tech-talk",
-    "live": "https://tech2talk.netlify.app/"
-  },
-  {
     "id": 3,
     "title": "starwars api",
     "description": " A star war characters information search app and it uses SWAPI API, react, styled components and netlify for deployment.",
