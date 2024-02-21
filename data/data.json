@@ -55,7 +55,7 @@
     "title": "Shopping Cart",
     "description": " The shopping cart personal project is a web application that allows users to browse through a collection of products, add delete items to their cart. react, Bootstrap",
     "details": "The project includes a user-friendly interface where users can view a list of products with details such as name, price, and image. The UI also displays the items in the shopping cart and provides options to remove items or update their quantities.The project fetches product data from locally and dynamically renders the products on the page.The project utilizes React's state management to handle the application's data flow efficiently. It may use state hooks like useState and useEffect to manage the cart items, update quantities, and calculate the total cost.Overall, the shopping cart personal project in React provides users with a smooth and interactive shopping experience. It leverages React's component-based architecture, state management, and other essential features to create a functional and visually appealing e-commerce application.",
-    "tools": " html, css, react, bootstrap , vite,",
+    "tools": " html, css, react, typescript, bootstrap",
     "image": "/images/shopping-cart.png",
     "github": "https://github.com/MuhammadUsmanMushtaq/shopping-cart",
     "live": "https://shoppingcar-t.netlify.app/"
