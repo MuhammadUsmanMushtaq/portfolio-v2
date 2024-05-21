@@ -69,15 +69,5 @@
     "image": "/images/waitcure.png",
     "github": "",
     "live": "https://www.figma.com/proto/ylTFLMybDSfNI8ccGbg0BX/Waitcure-Prototype?node-id=2%3A1&viewport=496%2C431%2C0.14515800774097443&scaling=scale-down&page-id=0%3A1"
-  },
-  {
-    "id": 6,
-    "title": "ux review for eu bikes",
-    "description": "UX review on EU bike service and recommend improvements to satisfy both the user goals and the business goals.",
-    "details": "The main aim of this school project was to analyze the user experience of the EU bike service and to recommend improvements to satisfy both the user goals and the business goals. This project was a UX research project, I used user research methods such as usability testing, empathy mapping, heuristic evaluations to bring out all the usability issues asscociated with the app and proposed design recommendations to improve the UX of the app.",
-    "tools": "miro, figma, user research, user testing, user flows, wireframes, prototyping",
-    "image": "/images/EuBike.png",
-    "github": "",
-    "live": "https://www.figma.com/proto/ylTFLMybDSfNI8ccGbg0BX/Waitcure-Prototype?node-id=2%3A1&viewport=496%2C431%2C0.14515800774097443&scaling=scale-down&page-id=0%3A1"
   }
 ]
